@@ -6,4 +6,4 @@ if c == 'A':
         print(i + 1, end=' ')
 elif c == 'D':
     for i in range(n+1, 1, -1):
-        print(i, end=' ')
+        print(i - 1, end=' ')
