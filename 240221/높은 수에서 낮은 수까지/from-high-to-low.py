@@ -6,3 +6,5 @@ if a < b:
 elif b < a:
     for i in range(a, b-1, -1):
         print(i, end=' ')
+else:
+    print(a)
