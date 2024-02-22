@@ -6,15 +6,15 @@ for i in range(1, n + 1):
         print(0, end=' ')
     else:
         num = i
+        while num > 0:
+            multiple = num % 10
+            if multiple == 3 or multiple == 6 or multiple == 9:
+                t = True
+                break
+            num //= 10
+
         if num == 0:
             t = False
-        else:
-            while num > 0:
-                multiple = num % 10
-                if multiple == 3 or multiple == 6 or multiple == 9:
-                    t = True
-                    break
-                num //= 10
 
         if t:
             print(0, end=' ')
