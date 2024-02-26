@@ -7,4 +7,4 @@ for i in range(n + 1):
 
     val += i
 
-print(val)
+print(i)
