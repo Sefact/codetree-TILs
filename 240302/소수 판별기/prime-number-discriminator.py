@@ -2,7 +2,9 @@ n = int(input())
 val = False
 
 for i in range(2, n):
-    if n % i != 0:
+    if n % i == 0:
+        val = False
+    else:
         val = True
         break
 
