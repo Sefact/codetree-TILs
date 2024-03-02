@@ -1,14 +1,12 @@
 n = int(input())
-val = False
+val = True
 
 for i in range(2, n):
     if n % i == 0:
         val = False
-    else:
-        val = True
         break
 
-if val == True:
+if val:
     print('P')
 else:
     print('C')
