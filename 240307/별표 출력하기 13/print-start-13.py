@@ -20,8 +20,4 @@ for i in range(n):
         for j in range(i):
             print('*', end=' ')
         cnt -= 1
-    # elif i % 2 != 0:
-    #     for j in range(cnt - 1):
-    #         print('*', end=' ')
-    #     cnt -= 1
     print()
